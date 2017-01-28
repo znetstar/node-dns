@@ -25,6 +25,8 @@ exports.platform = require('./lib/platform');
 exports.createServer = require('./lib/server').createServer;
 exports.createUDPServer = require('./lib/server').createUDPServer;
 exports.createTCPServer = require('./lib/server').createTCPServer;
+exports.UDPServer = require('./lib/server').UDPServer;
+exports.TCPServer = require('./lib/server').TCPServer;
 
 var client = require('./lib/client');
 exports.lookup = client.lookup;
